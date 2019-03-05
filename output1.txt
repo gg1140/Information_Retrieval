@@ -1,0 +1,12 @@
+set([u'pre', u'em', u'code', u'header', u'h2', u'h3', u'h1', u'h6', u'h4', u'h5', u'q', u'p', u'dfn', u'a', u'strong'])
+<type 'lxml.etree._Element'>
+('body', <type 'lxml.etree._Element'>)
+('h1', <type 'lxml.etree._Element'>)
+('TAG::', 'h1', 8)
+Has Text
+('p', <type 'lxml.etree._Element'>)
+('TAG::', 'p', 9)
+Has Text
+('strong', <type 'lxml.etree._Element'>)
+('TAG::', 'strong', 10)
+Has Text

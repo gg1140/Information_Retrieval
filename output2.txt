@@ -1,0 +1,2677 @@
+TAG::'div' 
+[
+]
+TAG::'script' 
+[
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+]
+TAG::'style' 
+[
+
+
+         #school_header {
+             background-image: url('//www.ics.uci.edu/bin/img/ICSWebBanner2014-bigUCI.png');
+             background-repeat: no-repeat;
+             background-color: #0064a4;
+             margin-bottom: 0;
+             width: 760px;
+             height: 70px;
+             position: relative;
+         }
+
+
+         #school_link {
+                 display: block;
+                 position: absolute;
+                 width: 100%; height: 100%;
+         }
+
+
+         #uci_link {
+            display: block;
+            position: absolute;
+
+            height: 45px;
+            width: 109px;
+            left: 18px;
+            top: 7px;
+
+         }
+
+
+      ]
+TAG::'div' 
+[
+
+         ]
+TAG::'div' 
+[
+
+                
+            ]
+TAG::'ul' 
+[
+                
+                ]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ABOUT]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ DEPARTMENTS ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ RESEARCH ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ EDUCATION ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'li' 
+[
+                    
+                    ]
+TAG::'a' 
+[PEOPLE]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'li' 
+[ 
+                
+                    ]
+TAG::'a' 
+[NEWS & EVENTS]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[GET INVOLVED]
+TAG::'ul' 
+[
+                    
+                            ]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'style' 
+[@import url('/bin/icssearchstyle/css/icssearch.css');]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ before breadcrumb_nav() print ]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ starting function breadcrumb_nav ]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/events/">Events</a> &gt; <a href="http://www.ics.uci.edu/community/events/extreme/">hITEC</a>] ]
+TAG::'a' 
+[Bren school home]
+TAG::'a' 
+[Community]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[hITEC]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ after breadcrumb_nav() print ]
+TAG::'div' 
+[hITEC competition]
+TAG::'blockquote' 
+[
+]
+TAG::'div' 
+[
+
+]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'p' 
+[The ICS Technology and Entrepreneurship Competition (hITEC) is the cornerstone of the Bren School entrepreneurship program. ]
+TAG::'p' 
+[The competition is designed to foster a spirit of entrepreneurship among Bren School and UC Irvine students, and fuel the development of new technologies that have the potential to positively impact the marketplace.]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Notice]
+TAG::'a' 
+[Stradling
+ Yocca Carlson & Rauth Business Plan Competition]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'p' 
+[ ]
+TAG::'div' 
+[More community »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Friends]
+TAG::'a' 
+[Parents]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[News]
+TAG::'a' 
+[Give a gift]
+TAG::'div' 
+[
+]
+TAG::'div' 
+[More hITEC »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'div' 
+[hITEC Sponsors »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Printronix]
+TAG::'li' 
+[Ted and Janice Smith]
+TAG::'span' 
+[Quick Links ]
+TAG::'select' 
+[
+]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[Copyright Inquiries]
+TAG::'a' 
+[UCI Directory]
+TAG::'a' 
+[Intranet]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | ]
+TAG::'a' 
+[icswebmaster]
+TAG::'script' 
+[
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+]
+TAG::'style' 
+[
+
+
+         #school_header {
+             background-image: url('//www.ics.uci.edu/bin/img/ICSWebBanner2014-bigUCI.png');
+             background-repeat: no-repeat;
+             background-color: #0064a4;
+             margin-bottom: 0;
+             width: 760px;
+             height: 70px;
+             position: relative;
+         }
+
+
+         #school_link {
+                 display: block;
+                 position: absolute;
+                 width: 100%; height: 100%;
+         }
+
+
+         #uci_link {
+            display: block;
+            position: absolute;
+
+            height: 45px;
+            width: 109px;
+            left: 18px;
+            top: 7px;
+
+         }
+
+
+      ]
+TAG::'div' 
+[
+
+         ]
+TAG::'div' 
+[
+
+                
+            ]
+TAG::'ul' 
+[
+                
+                ]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ABOUT]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ DEPARTMENTS ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ RESEARCH ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ EDUCATION ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'li' 
+[
+                    
+                    ]
+TAG::'a' 
+[PEOPLE]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'li' 
+[ 
+                
+                    ]
+TAG::'a' 
+[NEWS & EVENTS]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[GET INVOLVED]
+TAG::'ul' 
+[
+                    
+                            ]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'style' 
+[@import url('/bin/icssearchstyle/css/icssearch.css');]
+TAG::'ul' 
+[
+                
+                ]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ABOUT]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ DEPARTMENTS ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ RESEARCH ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ EDUCATION ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'li' 
+[
+                    
+                    ]
+TAG::'a' 
+[PEOPLE]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'li' 
+[ 
+                
+                    ]
+TAG::'a' 
+[NEWS & EVENTS]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[GET INVOLVED]
+TAG::'ul' 
+[
+                    
+                            ]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ABOUT]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'a' 
+[ABOUT]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[About the School]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Dean's Welcome]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Facts and Figures]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Donald Bren Hall]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Equity & Diversity]
+TAG::'a' 
+[Contact Us]
+TAG::'a' 
+[Contact Us]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ DEPARTMENTS ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'a' 
+[ DEPARTMENTS ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Computer Science]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Informatics]
+TAG::'a' 
+[Statistics]
+TAG::'a' 
+[Statistics]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ RESEARCH ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'a' 
+[ RESEARCH ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Areas]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Centers]
+TAG::'a' 
+[Research Highlights]
+TAG::'a' 
+[Research Highlights]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[ EDUCATION ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'a' 
+[ EDUCATION ]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Graduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[Prospective Students]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[How to Apply]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Programs of Study]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Policies]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Funding & Housing]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Campus Resources]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Visit the Bren School]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Graduate Student Handbook]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Undergraduate ▸ ]
+TAG::'ul' 
+[
+                            ]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Contact]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Advising]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Academic Year Plan]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[Petitions]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Majors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[ICS Minors]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Integrity]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Academic Standing]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Add, drop, & change options]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Coursework outside UCI]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Grade policy]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Laptop & computer use]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Policies: Withdrawal/Readmission]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[Graduation]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[ICS Student Life]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Upcoming Events]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Computing Support]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Prospective Undergrad]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'a' 
+[Scholarships & Fellowships]
+TAG::'li' 
+[
+                    
+                    ]
+TAG::'a' 
+[PEOPLE]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[PEOPLE]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Faculty]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Staff]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Graduate Students]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Alumni]
+TAG::'li' 
+[ 
+                
+                    ]
+TAG::'a' 
+[NEWS & EVENTS]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'a' 
+[NEWS & EVENTS]
+TAG::'ul' 
+[
+                        ]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Newsroom]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Press releases]
+TAG::'a' 
+[Annual reports]
+TAG::'a' 
+[Annual reports]
+TAG::'li' 
+[
+                
+                    ]
+TAG::'a' 
+[GET INVOLVED]
+TAG::'ul' 
+[
+                    
+                            ]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'a' 
+[GET INVOLVED]
+TAG::'ul' 
+[
+                    
+                            ]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Make a Gift]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Corporate Partners]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Sponsor Projects]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[Product Development Competition]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'a' 
+[ZotLink Jobs & Internships]
+TAG::'style' 
+[@import url('/bin/icssearchstyle/css/icssearch.css');]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ starting function breadcrumb_nav ]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/events/">Events</a> &gt; <a href="http://www.ics.uci.edu/community/events/extreme/">hITEC</a>] ]
+TAG::'a' 
+[Bren school home]
+TAG::'a' 
+[Community]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[hITEC]
+TAG::'a' 
+[Bren school home]
+TAG::'a' 
+[Community]
+TAG::'a' 
+[Events]
+TAG::'a' 
+[hITEC]
+TAG::'div' 
+[hITEC competition]
+TAG::'blockquote' 
+[
+]
+TAG::'div' 
+[
+
+]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'p' 
+[The ICS Technology and Entrepreneurship Competition (hITEC) is the cornerstone of the Bren School entrepreneurship program. ]
+TAG::'p' 
+[The competition is designed to foster a spirit of entrepreneurship among Bren School and UC Irvine students, and fuel the development of new technologies that have the potential to positively impact the marketplace.]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Notice]
+TAG::'a' 
+[Stradling
+ Yocca Carlson & Rauth Business Plan Competition]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'p' 
+[ ]
+TAG::'div' 
+[hITEC competition]
+TAG::'blockquote' 
+[
+]
+TAG::'div' 
+[
+
+]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'p' 
+[The ICS Technology and Entrepreneurship Competition (hITEC) is the cornerstone of the Bren School entrepreneurship program. ]
+TAG::'p' 
+[The competition is designed to foster a spirit of entrepreneurship among Bren School and UC Irvine students, and fuel the development of new technologies that have the potential to positively impact the marketplace.]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Notice]
+TAG::'a' 
+[Stradling
+ Yocca Carlson & Rauth Business Plan Competition]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'p' 
+[ ]
+TAG::'div' 
+[
+
+]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'p' 
+[The ICS Technology and Entrepreneurship Competition (hITEC) is the cornerstone of the Bren School entrepreneurship program. ]
+TAG::'p' 
+[The competition is designed to foster a spirit of entrepreneurship among Bren School and UC Irvine students, and fuel the development of new technologies that have the potential to positively impact the marketplace.]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Notice]
+TAG::'a' 
+[Stradling
+ Yocca Carlson & Rauth Business Plan Competition]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'strong' 
+[ABOUT hITEC]
+TAG::'p' 
+[The ICS Technology and Entrepreneurship Competition (hITEC) is the cornerstone of the Bren School entrepreneurship program. ]
+TAG::'p' 
+[The competition is designed to foster a spirit of entrepreneurship among Bren School and UC Irvine students, and fuel the development of new technologies that have the potential to positively impact the marketplace.]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Benefits]
+TAG::'strong' 
+[Notice]
+TAG::'strong' 
+[Notice]
+TAG::'a' 
+[Stradling
+ Yocca Carlson & Rauth Business Plan Competition]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'strong' 
+[h.ITEC:The Student Experience ]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'strong' 
+[Why Should a Student Enroll?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'strong' 
+[What Is h.ITEC?]
+TAG::'p' 
+[
+]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'strong' 
+[h.ITEC Promo]
+TAG::'p' 
+[ ]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'strong' 
+[LATEST NEWS]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'a' 
+[Congratulations
+ 2009 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'a' 
+[Congratulations
+ 2008 hITEC winners]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'a' 
+[Congratulations
+ to the three team finalists]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'strong' 
+[The Bren Shcool would like to thank the 2009 hITEC 
+sponsors: ]
+TAG::'table' 
+[
+                ]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'a' 
+[Printronix]
+TAG::'a' 
+[Printronix]
+TAG::'tr' 
+[
+                  ]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'strong' 
+[»]
+TAG::'td' 
+[Ted and Janice Smith]
+TAG::'p' 
+[ ]
+TAG::'div' 
+[More community »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Friends]
+TAG::'a' 
+[Parents]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[News]
+TAG::'a' 
+[Give a gift]
+TAG::'div' 
+[
+]
+TAG::'div' 
+[More hITEC »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'div' 
+[hITEC Sponsors »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Printronix]
+TAG::'li' 
+[Ted and Janice Smith]
+TAG::'div' 
+[More community »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Friends]
+TAG::'a' 
+[Parents]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[News]
+TAG::'a' 
+[Give a gift]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Alumni]
+TAG::'a' 
+[Friends]
+TAG::'a' 
+[Friends]
+TAG::'a' 
+[Parents]
+TAG::'a' 
+[Parents]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[Leadership Council]
+TAG::'a' 
+[News]
+TAG::'a' 
+[News]
+TAG::'a' 
+[Give a gift]
+TAG::'a' 
+[Give a gift]
+TAG::'div' 
+[
+]
+TAG::'div' 
+[More hITEC »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'div' 
+[hITEC Sponsors »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Printronix]
+TAG::'li' 
+[Ted and Janice Smith]
+TAG::'div' 
+[More hITEC »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Guidelines]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Format]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Timeline]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Team
+ registration]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Recruit
+ forum]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Mentor
+ signup]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[Forms]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2009
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'a' 
+[2008
+ winners]
+TAG::'div' 
+[hITEC Sponsors »]
+TAG::'ul' 
+[
+]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Printronix]
+TAG::'li' 
+[Ted and Janice Smith]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Northwind Ventures]
+TAG::'a' 
+[Printronix]
+TAG::'a' 
+[Printronix]
+TAG::'li' 
+[Ted and Janice Smith]
+TAG::'span' 
+[Quick Links ]
+TAG::'select' 
+[
+]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'span' 
+[Quick Links ]
+TAG::'select' 
+[
+]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'span' 
+[Quick Links ]
+TAG::'select' 
+[
+]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'span' 
+[Quick Links ]
+TAG::'select' 
+[
+]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'option' 
+[- select a page -]
+TAG::'option' 
+[Computing support]
+TAG::'option' 
+[CS Seminar Series]
+TAG::'option' 
+[Employment]
+TAG::'option' 
+[Facilities]
+TAG::'option' 
+[Find faculty and staff]
+TAG::'option' 
+[Giving to the Bren School]
+TAG::'option' 
+[Graduate degrees]
+TAG::'option' 
+[Kay Family Foundation Lab]
+TAG::'option' 
+[Project ICS]
+TAG::'option' 
+[Prospective undergraduates]
+TAG::'option' 
+[Safety procedures]
+TAG::'option' 
+[Undergraduate degrees]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[ ]
+TAG::'a' 
+[Copyright Inquiries]
+TAG::'a' 
+[UCI Directory]
+TAG::'a' 
+[Intranet]
+TAG::<cyfunction Comment at 0x10c270410> 
+[ <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | ]
+TAG::'a' 
+[icswebmaster]
+TAG::'a' 
+[Copyright Inquiries]
+TAG::'a' 
+[UCI Directory]
+TAG::'a' 
+[Intranet]
+TAG::'a' 
+[icswebmaster]
+TAG::'script' 
+[
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+]
+TAG::'script' 
+[
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+]
