@@ -7,10 +7,10 @@ import time
 import codecs
 import StringIO
 import os
-from collections import Counter
 from lxml import html, etree
 import json
 
+from doc_struct import doc_struct
 from posting import posting
 from new_tokenizer import wl_tokenize as tokenize
 from new_tokenizer import tok_counting as counting
@@ -37,37 +37,36 @@ def load_scored_tag_name(file_path):
     with codecs.open(file_path, encoding='UTF-8', mode='r') as f:
         scored_tag_name.clear()
         scored_tag_name = json.load(f)
-       # for _ in f:
-       #     scored_tag_name.add(_.strip())
-       # print(scored_tag_name)
 
 def _extract_txt_from_html(html_str):
-    global scored_tag_name
     temp_txt_storage = dict() #{tag:[str, str, ...]}
     parser = etree.HTMLParser()
 
     tree = etree.parse(StringIO.StringIO(html_str), parser)
     body_ele = tree.xpath('/html/body')[0] #'//p') #list of all <p>
-    with codecs.open("output.txt", encoding='UTF-8', mode='w') as f:
-        for i in body_ele.iter():
-            ls = temp_txt_storage.get(i.tag.__repr__())
-            if ls == None:
-                ls = list()
-                ls.append(i.text)
-                ls.append(i.tail)
-                temp_txt_storage[i.tag.__repr__()] = ls
-            else:
-                ls.append(i.text)
-                ls.append(i.tail)
+    for i in body_ele.iter():
+        ls = temp_txt_storage.get(i.tag)
+        if ls == None:
+            ls = list()
+            ls.append(i.text)
+            ls.append(i.tail)
+            temp_txt_storage[i.tag] = ls
+        else:
+            ls.append(i.text)
+            ls.append(i.tail)
     return temp_txt_storage
 
-def _generate_doc_obj(extracted_txt):
-    for tag, txt_ls in extracted_txt.iteritems:
-        for txt in txt_ls:
+def _generate_doc_obj(docID, extracted_txt):
+    doc = doc_struct(docID)
+    for tag in extracted_txt:
+        for txt in extracted_txt[tag]:
             if txt != None:
-                token = tokenize(txt)
+                tokens = tokenize(txt)
+                for token in tokens:
+                    doc.add_tok(token, tag)
+    return docprint(doc)
 
-def _create_inverted_index():
+def _create_inverted_index(doc):
     pass
 
 def output_index(destination):
@@ -78,10 +77,11 @@ if __name__ == '__main__':
     load_scored_tag_name('text_tag_whitelist.json')
     web_doc_lib_path = './WEBPAGES_RAW'
 
-    for root, directory, files in os.walk(web_doc_lib_path):
-        if len(files) != 0:
-            for f in files:
-                file_path = (os.path.join(root,f))
-                doc_ID = file_path[15:]
-                raw_str = read_web_doc(file_path)
-                generate_doc_obj(extract_txt_from_html(raw_str))
+#    for root, directory, files in os.walk(web_doc_lib_path):
+#        if len(files) != 0:
+#            for f in files:
+#                file_path = (os.path.join(root,f))
+#                doc_ID = file_path[15:]
+    file_path = 'my_test_html.html'
+    raw_str = read_web_doc(file_path)
+    _generate_doc_obj(file_path, _extract_txt_from_html(raw_str))
